@@ -6,158 +6,234 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Html wikipedia</title>
     <link rel="stylesheet" href="static/styles/style.css" />
+    <style>
+      a {
+        text-decoration: none;
+      }
+    </style>
   </head>
 
   <body>
+<div class="page">
+  <div class="header">
     <div>
-      <h1>HTML</h1>
-      <div class="img-cont">
-        <div>
-          <img class="logo-html5" 
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/120px-HTML5_logo_and_wordmark.svg.png"
-          alt="no image"
-        />
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/HTML.svg/206px-HTML.svg.png" alt="html">
-        </div>
-        </div>
-      <p>
-        The <span> HyperText Markup Language </span> or <span>HTML</span> is the
-        standard
-        <a href="https://en.wikipedia.org/wiki/Markup_language" target="_blank"
-          >markup language</a
-        >
-        for documents designed to be displayed in a
-        <a href="https://en.wikipedia.org/wiki/Web_browser" target="_blank"
-          >web browser</a
-        >. It can be assisted by technologies such as Cascading Style Sheets (CSS)
-        and scripting languages such as JavaScript.
-      </p>
-      <p>
-        Web browsers receive HTML documents from a web server or from local
-        storage and render the documents into multimedia web pages. HTML describes
-        the structure of a web page semantically and originally included cues for
-        the appearance of the document.
-      </p>
-      <p>
-        <a href="#">HTML elements</a> are the building blocks of HTML pages. With
-        HTML constructs, images and other objects such as interactive forms may be
-        embedded into the rendered page. <a href="#">HTML provides</a> a means to
-        create structured documents by denoting structural semantics for text such
-        as headings, paragraphs, lists, links, quotes, and other items.
-        <a href="#">HTML elements</a> are delineated by tags, written using
-        <a href="#">angle brackets</a>. Tags such as and directly introduce
-        content into the page. Other tags such as surround and provide information
-        about document text and may include other tags as sub-elements. Browsers
-        do not display the <a href="#">HTML tags</a> but use them to interpret the
-        content of the page.
-      </p>
-      <p>
-        HTML can embed <a href="#">programs</a> written in a scripting language
-        such as <a href="#">JavaScript</a>, which affects the behavior and content
-        of web pages. The inclusion of CSS defines the look and layout of content.
-        The World Wide Web Consortium (W3C), former maintainer of the HTML and
-        current<a href="#"> maintainer</a> of the <a href="#">CSS standards</a>,
-        has encouraged the use of CSS over explicit presentational HTML since
-        1997.[2] A form of HTML, known as<a href="#"> HTML5</a>, is used to
-        display video and audio, primarily using the element, in collaboration
-        with javascript.
-      </p>
-      <div class="list-container">
-        <p>Contents</p>
-        <ol>
-          <li><a href="#">History</a></li>
-          <li><a href="#">Markup</a></li>
-          <li><a href="#">Semantic HTML</a> </li>
-          <li><a href="#">Delivery</a></li>
-          <li>
-            <a href="#">HTML4 variations</a>
-            <ol>
-              <li><a href="#">SGML-based verus XML-based HTML</a></li>
-              <li><a href="#">Transitional</a></li>
-              <li><a href="#">Frameset verus strit</a></li>
-              <li><a href="#">Summary of specification versions</a></li>
-            <a href="#"></ol></a>
-          </li>
-          <li><a href="#">WHATWG HTML</a></li>
-          <li><a href="#">WYSIWYG editors</a></li>
-          <li><a href="#">See also</a></li>
-          <li><a href="#">References</a></li>
-          <li><a href="#">External links</a></li>
-        </ol>
-      </div>
-      <h2>History</h2>
-      <p>
-        In 1980, physicist Tim Berners-Lee, a contractor at<a href="#"> CERN</a>,
-        proposed and prototyped <a href="#">ENQUIRE</a>, a system for CERN
-        researchers to use and share documents. In 1989, Berners-Lee wrote a memo
-        proposing an <a href="#">Internet-based</a> hypertext system.[3]
-        Berners-Lee specified HTML and wrote the browser and server software in
-        late 1990. That year, Berners-Lee and CERN data systems engineer
-        <a href="#">Robert Cailliau</a> collaborated on a joint request for
-        funding, but the project was not formally adopted by CERN. In his personal
-        notes[4] from 1990 he listed[5] "some of the many areas in which hypertext
-        is used" and put an encyclopedia first.
-      </p>
-      <p>
-        The first publicly available <a href="#">description</a> of HTML was a
-        document called "HTML Tags", first mentioned on the Internet by Tim
-        Berners-Lee in late 1991.[6][7] It describes 18 elements comprising the
-        initial, relatively simple design of HTML. Except for the
-        <a href="#">hyperlink tag</a>, these were strongly influenced by SGMLguid,
-        an in-house Standard Generalized Markup Language (SGML)-based
-        documentation format at CERN. Eleven of these elements still exist in HTML
-        4.[8]
-      </p>
-      <p>
-        HTML is a <a href="#">markup language</a> that web browsers use to
-        interpret and compose text, images, and other material into visual or
-        audible <a href="#">web pages</a>. Default characteristics for every item
-        of HTML markup are defined in the browser, and these characteristics can
-        be altered or enhanced by the web page designer's additional use of CSS.
-        Many of the text elements are found in the 1988 ISO technical report TR
-        9537 Techniques for using SGML, which in turn covers the features of early
-        text formatting languages such as that used by the RUNOFF command
-        developed in the early 1960s for the <a href="#">CTSS</a> (Compatible
-        Time-Sharing System) operating system: these formatting commands were
-        derived from the commands used by typesetters to manually format
-        documents. However, the SGML concept of generalized markup is based on
-        elements (nested annotated ranges with attributes)
-        <a href="#">rather</a> than merely print effects, with also the separation
-        of structure and markup; HTML has been progressively moved in this
-        direction with CSS.
-      </p>
-      <p>
-        <a href="#">Berners-Lee</a> considered HTML to be an application of SGML.
-        It was formally defined as such by the Internet Engineering Task Force
-        (IETF) with the mid-1993 publication of the first proposal for an HTML
-        specification, the "Hypertext Markup Language (HTML)" Internet Draft by
-        Berners-Lee and Dan Connolly, which included an SGML Document type
-        definition to define the grammar.[9][10] The draft expired after six
-        months, but was notable for its acknowledgment of the NCSA Mosaic
-        browser's custom tag for embedding in-line images, reflecting the IETF's
-        philosophy of basing standards on successful prototypes. Similarly, Dave
-        Raggett's competing <a href="#">Internet-Draft</a>, "HTML+ (Hypertext
-        Markup Format)", from late 1993, suggested standardizing
-        already-implemented features like tables and fill-out forms.[11]
-      </p>
-      <p>
-        After the <a href="#">HTML</a> and <a href="#">HTML+</a> drafts expired in
-        early 1994, the IETF created an HTML Working Group, which in 1995
-        completed "HTML 2.0", the first HTML specification intended to be treated
-        as a standard against which future implementations should be based.[12]
-      </p>
-      <p>
-        <a href="#">Further</a> development under the auspices of the IETF was
-        stalled by competing interests. Since 1996, the HTML specifications have
-        been maintained, with input from commercial software vendors, by the World
-        Wide <a href="#">Web Consortium</a> (W3C).[13] However, in 2000, HTML also
-        became an international standard (ISO/IEC 15445:2000). HTML 4.01 was
-        published in late 1999, with further errata published through 2001. In
-        2004, development began on HTML5 in the Web Hypertext Application
-        Technology Working Group (WHATWG), which became a joint deliverable with
-        the <a href="#">W3C</a> in 2008, and was completed and standardized on 28
-        October 2014.[14]
-      </p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Wikipedia-logo-v2-wordmark.svg/1200px-Wikipedia-logo-v2-wordmark.svg.png" alt="wiki">
     </div>
+    <ol>
+      <li><a href="#">Main page</a></li>
+      <li><a href="#">Contents</a></li>
+      <li><a href="#">Current events</a> </li>
+      <li><a href="#">Random Artikle</a></li>
+      <li>
+        <a href="#">About Wikipedia</a>
+      </li>
+      <li><a href="#">Contact us</a></li>
+      <li><a href="#">Donate</a></li> 
+    </ol>
+    <ol>
+      <li><a href="#">Main page</a></li>
+      <li><a href="#">Contents</a></li>
+      <li><a href="#">Current events</a> </li>
+      <li><a href="#">Random Artikle</a></li>
+      <li>
+        <a href="#">About Wikipedia</a>
+      </li>
+      <li><a href="#">Contact us</a></li>
+      <li><a href="#">Donate</a></li> 
+    </ol>
+    <ol>
+      <li><a href="#">Main page</a></li>
+      <li><a href="#">Contents</a></li>
+      <li><a href="#">Current events</a> </li>
+      <li><a href="#">Random Artikle</a></li>
+      <li>
+        <a href="#">About Wikipedia</a>
+      </li>
+      <li><a href="#">Contact us</a></li>
+      <li><a href="#">Donate</a></li> 
+    </ol>
+    <ol>
+      <li><a href="#">Main page</a></li>
+      <li><a href="#">Contents</a></li>
+      <li><a href="#">Current events</a> </li>
+      <li><a href="#">Random Artikle</a></li>
+      <li>
+        <a href="#">About Wikipedia</a>
+      </li>
+      <li><a href="#">Contact us</a></li>
+      <li><a href="#">Donate</a></li> 
+    </ol>
+          
+  </div>
+  <div class="section">
+    <div class="nav-cont">
+      <nav>
+        <ul>
+          <li><a href="#">Article</a></li>
+          <li><a href="#">Talk</a></li>
+        </ul>
+      </nav>
+      <nav>
+        <ul>
+          <li><a href="#">Read</a></li>
+          <li><a href="#">View source</a></li>
+          <li><a href="#">View history</a></li>
+          <input type="text" placeholder="Search">
+        </ul>
+      </nav>
+    </div>
+    
+        <div class="text-page">
+          <h1>HTML</h1>
+          <div class="img-cont">
+            <div>
+              <img class="logo-html5" 
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/120px-HTML5_logo_and_wordmark.svg.png"
+              alt="no image"
+            />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/HTML.svg/206px-HTML.svg.png" alt="html">
+            </div>
+            </div>
+          <p>
+            The <span> HyperText Markup Language </span> or <span>HTML</span> is the
+            standard
+            <a href="https://en.wikipedia.org/wiki/Markup_language" target="_blank"
+              >markup language</a
+            >
+            for documents designed to be displayed in a
+            <a href="https://en.wikipedia.org/wiki/Web_browser" target="_blank"
+              >web browser</a
+            >. It can be assisted by technologies such as Cascading Style Sheets (CSS)
+            and scripting languages such as JavaScript.
+          </p>
+          <p>
+            Web browsers receive HTML documents from a web server or from local
+            storage and render the documents into multimedia web pages. HTML describes
+            the structure of a web page semantically and originally included cues for
+            the appearance of the document.
+          </p>
+          <p>
+            <a href="#">HTML elements</a> are the building blocks of HTML pages. With
+            HTML constructs, images and other objects such as interactive forms may be
+            embedded into the rendered page. <a href="#">HTML provides</a> a means to
+            create structured documents by denoting structural semantics for text such
+            as headings, paragraphs, lists, links, quotes, and other items.
+            <a href="#">HTML elements</a> are delineated by tags, written using
+            <a href="#">angle brackets</a>. Tags such as and directly introduce
+            content into the page. Other tags such as surround and provide information
+            about document text and may include other tags as sub-elements. Browsers
+            do not display the <a href="#">HTML tags</a> but use them to interpret the
+            content of the page.
+          </p>
+          <p>
+            HTML can embed <a href="#">programs</a> written in a scripting language
+            such as <a href="#">JavaScript</a>, which affects the behavior and content
+            of web pages. The inclusion of CSS defines the look and layout of content.
+            The World Wide Web Consortium (W3C), former maintainer of the HTML and
+            current<a href="#"> maintainer</a> of the <a href="#">CSS standards</a>,
+            has encouraged the use of CSS over explicit presentational HTML since
+            1997.[2] A form of HTML, known as<a href="#"> HTML5</a>, is used to
+            display video and audio, primarily using the element, in collaboration
+            with javascript.
+          </p>
+          <div class="list-container">
+            <p>Contents</p>
+            <ol>
+              <li><a href="#">History</a></li>
+              <li><a href="#">Markup</a></li>
+              <li><a href="#">Semantic HTML</a> </li>
+              <li><a href="#">Delivery</a></li>
+              <li>
+                <a href="#">HTML4 variations</a> 
+                <ol>
+                  <li><a href="#">SGML-based verus XML-based HTML</a></li>
+                  <li><a href="#">Transitional</a></li>
+                  <li><a href="#">Frameset verus strit</a></li>
+                  <li><a href="#">Summary of specification versions</a></li>
+                <a href="#"></ol></a>
+              </li>
+              <li><a href="#">WHATWG HTML</a></li>
+              <li><a href="#">WYSIWYG editors</a></li>
+              <li><a href="#">See also</a></li>
+              <li><a href="#">References</a></li>
+              <li><a href="#">External links</a></li>
+            </ol>
+          </div>
+          <h2>History</h2>
+          <p>
+            In 1980, physicist Tim Berners-Lee, a contractor at<a href="#"> CERN</a>,
+            proposed and prototyped <a href="#">ENQUIRE</a>, a system for CERN
+            researchers to use and share documents. In 1989, Berners-Lee wrote a memo
+            proposing an <a href="#">Internet-based</a> hypertext system.[3]
+            Berners-Lee specified HTML and wrote the browser and server software in
+            late 1990. That year, Berners-Lee and CERN data systems engineer
+            <a href="#">Robert Cailliau</a> collaborated on a joint request for
+            funding, but the project was not formally adopted by CERN. In his personal
+            notes[4] from 1990 he listed[5] "some of the many areas in which hypertext
+            is used" and put an encyclopedia first.
+          </p>
+          <p>
+            The first publicly available <a href="#">description</a> of HTML was a
+            document called "HTML Tags", first mentioned on the Internet by Tim
+            Berners-Lee in late 1991.[6][7] It describes 18 elements comprising the
+            initial, relatively simple design of HTML. Except for the
+            <a href="#">hyperlink tag</a>, these were strongly influenced by SGMLguid,
+            an in-house Standard Generalized Markup Language (SGML)-based
+            documentation format at CERN. Eleven of these elements still exist in HTML
+            4.[8]
+          </p>
+          <p>
+            HTML is a <a href="#">markup language</a> that web browsers use to
+            interpret and compose text, images, and other material into visual or
+            audible <a href="#">web pages</a>. Default characteristics for every item
+            of HTML markup are defined in the browser, and these characteristics can
+            be altered or enhanced by the web page designer's additional use of CSS.
+            Many of the text elements are found in the 1988 ISO technical report TR
+            9537 Techniques for using SGML, which in turn covers the features of early
+            text formatting languages such as that used by the RUNOFF command
+            developed in the early 1960s for the <a href="#">CTSS</a> (Compatible
+            Time-Sharing System) operating system: these formatting commands were
+            derived from the commands used by typesetters to manually format
+            documents. However, the SGML concept of generalized markup is based on
+            elements (nested annotated ranges with attributes)
+            <a href="#">rather</a> than merely print effects, with also the separation
+            of structure and markup; HTML has been progressively moved in this
+            direction with CSS.
+          </p>
+          <p>
+            <a href="#">Berners-Lee</a> considered HTML to be an application of SGML.
+            It was formally defined as such by the Internet Engineering Task Force
+            (IETF) with the mid-1993 publication of the first proposal for an HTML
+            specification, the "Hypertext Markup Language (HTML)" Internet Draft by
+            Berners-Lee and Dan Connolly, which included an SGML Document type
+            definition to define the grammar.[9][10] The draft expired after six
+            months, but was notable for its acknowledgment of the NCSA Mosaic
+            browser's custom tag for embedding in-line images, reflecting the IETF's
+            philosophy of basing standards on successful prototypes. Similarly, Dave
+            Raggett's competing <a href="#">Internet-Draft</a>, "HTML+ (Hypertext
+            Markup Format)", from late 1993, suggested standardizing
+            already-implemented features like tables and fill-out forms.[11]
+          </p>
+          <p>
+            After the <a href="#">HTML</a> and <a href="#">HTML+</a> drafts expired in
+            early 1994, the IETF created an HTML Working Group, which in 1995
+            completed "HTML 2.0", the first HTML specification intended to be treated
+            as a standard against which future implementations should be based.[12]
+          </p>
+          <p>
+            <a href="#">Further</a> development under the auspices of the IETF was
+            stalled by competing interests. Since 1996, the HTML specifications have
+            been maintained, with input from commercial software vendors, by the World
+            Wide <a href="#">Web Consortium</a> (W3C).[13] However, in 2000, HTML also
+            became an international standard (ISO/IEC 15445:2000). HTML 4.01 was
+            published in late 1999, with further errata published through 2001. In
+            2004, development began on HTML5 in the Web Hypertext Application
+            Technology Working Group (WHATWG), which became a joint deliverable with
+            the <a href="#">W3C</a> in 2008, and was completed and standardized on 28
+            October 2014.[14]
+          </p>
+        </div>
+  </div>
+</div>
   </body>
 </html>
