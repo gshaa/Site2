@@ -1,3 +1,33 @@
 span {
   font-style: italic;
 }
+
+.list-container {
+  display: inline-block;
+  border-style: solid;
+  border-width: 0.5px;
+  padding-right: 20px;
+}
+
+.list-container > p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.img-cont {
+  float: right;
+  border-style: solid;
+  border-width: 0.5px;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.img-cont > div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo-html5 {
+  max-width: 70px;
+}
