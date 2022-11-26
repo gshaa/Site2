@@ -3,7 +3,56 @@
   background-color: rgb(37, 35, 35);
 }
 
+.nav-list {
+  display: flex;
+}
+
 .nav-list a {
   display: block;
   padding: 1em;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-list a:hover {
+  background-color: rgb(87, 83, 83);
+}
+
+.logo {
+  display: none;
+}
+.logo2 {
+  display: block;
+}
+.nav-btn {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .nav-btn {
+    font-size: 2em;
+    padding-inline: 10px;
+    padding-bottom: 3px;
+    border: none;
+    background-color: rgb(37, 35, 35);
+    color: white;
+    display: block;
+    cursor: pointer;
+  }
+  .nav-list {
+    display: none;
+  }
+  .logo {
+    display: block;
+    margin-top: 2px;
+  }
+  .logo2 {
+    display: none;
+    margin-top: 2px;
+  }
+  .drop:hover .nav-list {
+    display: block;
+    position: absolute;
+    background-color: rgb(37, 35, 35);
+  }
 }
