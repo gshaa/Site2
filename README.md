@@ -1,3 +1,4 @@
-I learned the basics of CSS and HTML, as well as its responsiveness across devices.
+I learned the basics of CSS and HTML, as well as its responsiveness across devices. I make a small layout of the site.
 
-#https://gshaa.github.io/Site2/
+link to my work:
+https://gshaa.github.io/Site2/
